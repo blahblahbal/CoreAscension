@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version '1.8-SNAPSHOT'
+    id 'fabric-loom' version '1.17'
     id 'maven-publish'
 }
 
@@ -10,11 +10,6 @@ base {
 }
 
 repositories {
-    // Add repositories to retrieve artifacts from in here.
-    // You should only use this when depending on other mods because
-    // Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
-    // See https://docs.gradle.org/current/userguide/declaring_repositories.html
-    // for more information about repositories.
     maven {
         name = 'TerraformersMC'
         url = 'https://maven.terraformersmc.com/'
@@ -35,6 +30,9 @@ repositories {
         name = "ModMaven"
         url = "https://modmaven.dev"
     }
+    maven {
+        url "https://maven.sinytra.org"
+    }
 }
 
 fabricApi {
@@ -53,6 +51,8 @@ dependencies {
     modImplementation "com.terraformersmc:biolith:${biolith_version}"
     include "com.terraformersmc:biolith:${biolith_version}"
 
+    implementation "org.sinytra.forgified-fabric-api:forgified-fabric-api:0.116.15+2.3.5+1.21.1"
+
     modImplementation "net.kyrptonaught:customportalapi:${portal_version}"
     include "net.kyrptonaught:customportalapi:${portal_version}"
 
@@ -60,9 +60,9 @@ dependencies {
     include "com.terraformersmc.terraform-api:terraform-wood-api-v1:${project.terraform_wood_api_version}"
 
     // compile against the JEI API but do not include it at runtime
-    modCompileOnlyApi("mezz.jei:jei-1.20.1-fabric-api:${jei_version}")
+    modCompileOnlyApi("mezz.jei:jei-1.21.1-fabric-api:${jei_version}")
     // at runtime, use the full JEI jar for Fabric
-    modRuntimeOnly("mezz.jei:jei-1.20.1-fabric:${jei_version}")
+    modRuntimeOnly("mezz.jei:jei-1.21.1-fabric:${jei_version}")
 }
 
 processResources {
@@ -74,7 +74,7 @@ processResources {
 }
 
 tasks.withType(JavaCompile).configureEach {
-    it.options.release = 17
+    it.options.release = 21
 }
 
 java {
@@ -83,8 +83,8 @@ java {
     // If you remove this line, sources will not be generated.
     withSourcesJar()
 
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
 }
 
 jar {
