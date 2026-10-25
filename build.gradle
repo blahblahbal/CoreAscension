@@ -61,7 +61,6 @@ configurations {
 
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
-
 }
 
 
