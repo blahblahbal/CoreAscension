@@ -1,7 +1,0 @@
-{
-  "parent": "block/wall_inventory",
-  "textures": {
-    "wall": "coreascension:block/lightlycharredscoria",
-    "particle": "coreascension:block/lightlycharredscoria"
-  }
-}

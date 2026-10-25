@@ -1,9 +1,0 @@
-{
-  "parent": "coreascension:custom/jungle_post",
-  "textures": {
-    "all": "coreascension:block/jungle_log",
-    "particle": "coreascension:block/jungle_log",
-    "0": "coreascension:block/jungle_log",
-    "1": "coreascension:block/jungle_post"
-  }
-}

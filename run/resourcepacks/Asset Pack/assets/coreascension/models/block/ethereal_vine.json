@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "coreascension:block/ethereal_vines",
-    "particle": "coreascension:block/ethereal_vines"
-  }
-}

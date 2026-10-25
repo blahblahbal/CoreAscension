@@ -1,8 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "coreascension:block/saltrock_top",
-    "top": "coreascension:block/saltrock_top",
-    "side": "coreascension:block/saltrock_side"
-  }
-}

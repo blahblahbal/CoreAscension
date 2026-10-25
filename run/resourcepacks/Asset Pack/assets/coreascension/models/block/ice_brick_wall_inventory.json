@@ -1,7 +1,0 @@
-{
-  "parent": "block/wall_inventory",
-  "textures": {
-    "wall": "coreascension:block/ice_bricks",
-    "particle": "coreascension:block/ice_bricks"
-  }
-}

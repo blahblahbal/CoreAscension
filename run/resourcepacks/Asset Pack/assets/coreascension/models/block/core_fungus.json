@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "coreascension:block/core_fungus",
-    "particle": "coreascension:block/core_fungus"
-  }
-}

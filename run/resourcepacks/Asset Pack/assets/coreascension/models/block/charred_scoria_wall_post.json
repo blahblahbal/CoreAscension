@@ -1,7 +1,0 @@
-{
-  "parent": "block/template_wall_post",
-  "textures": {
-    "wall": "coreascension:block/charredscoria",
-    "particle": "coreascension:block/charredscoria"
-  }
-}

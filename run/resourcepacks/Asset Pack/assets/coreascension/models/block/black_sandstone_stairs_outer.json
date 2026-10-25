@@ -1,8 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "coreascension:block/blacksandstone_bottom",
-    "top": "coreascension:block/blacksandstone_top",
-    "side": "coreascension:block/blacksandstone"
-  }
-}

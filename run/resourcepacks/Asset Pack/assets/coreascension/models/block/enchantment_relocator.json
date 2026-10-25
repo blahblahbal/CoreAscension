@@ -1,8 +1,0 @@
-{
-  "parent": "coreascension:custom/enchant_relocator",
-  "textures": {
-    "all": "coreascension:block/enchant_relocator",
-    "particle": "coreascension:block/enchant_relocator",
-    "0": "coreascension:block/enchant_relocator"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "parent": "coreascension:custom/lumite_block",
-  "textures": {
-    "all": "coreascension:block/lumiteblock",
-    "particle": "coreascension:block/lumiteblock",
-    "0": "coreascension:block/lumite_block_inside",
-    "1": "coreascension:block/lumite_block_aura"
-  }
-}

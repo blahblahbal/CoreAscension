@@ -1,8 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "coreascension:block/whitewood_planks",
-    "top": "coreascension:block/whitewood_planks",
-    "side": "coreascension:block/whitewood_planks"
-  }
-}

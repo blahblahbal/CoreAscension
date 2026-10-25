@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "coreascension:polished_lightly_charred_scoria"
-  },
-  "result": "coreascension:polished_lightly_charred_scoria_slab"
-}

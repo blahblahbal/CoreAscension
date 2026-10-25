@@ -1,7 +1,0 @@
-{
-  "parent": "block/template_orientable_trapdoor_top",
-  "textures": {
-    "texture": "coreascension:block/tropics_trapdoor",
-    "particle": "coreascension:block/tropics_trapdoor"
-  }
-}

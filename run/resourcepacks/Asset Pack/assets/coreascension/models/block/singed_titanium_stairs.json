@@ -1,8 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "coreascension:block/singed_titanium_stairs",
-    "top": "coreascension:block/singed_titanium_stairs",
-    "side": "coreascension:block/singed_titanium_stairs"
-  }
-}

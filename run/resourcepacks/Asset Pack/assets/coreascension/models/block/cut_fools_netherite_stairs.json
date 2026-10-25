@@ -1,8 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "coreascension:block/cut_fools_netherite_block",
-    "top": "coreascension:block/cut_fools_netherite_block",
-    "side": "coreascension:block/cut_fools_netherite_block"
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "parent": "block/wall_inventory",
-  "textures": {
-    "wall": "coreascension:block/sapphireblock",
-    "particle": "coreascension:block/sapphireblock"
-  }
-}

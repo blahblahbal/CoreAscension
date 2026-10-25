@@ -1,7 +1,0 @@
-{
-  "parent": "block/fence_inventory",
-  "textures": {
-    "texture": "coreascension:block/whitewood_planks",
-    "particle": "coreascension:block/whitewood_planks"
-  }
-}

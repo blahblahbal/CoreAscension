@@ -1,7 +1,0 @@
-{
-  "parent": "block/wall_inventory",
-  "textures": {
-    "wall": "coreascension:block/petrified_wood",
-    "particle": "coreascension:block/petrified_wood"
-  }
-}

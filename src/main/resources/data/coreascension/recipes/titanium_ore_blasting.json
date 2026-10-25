@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "experience": 2,
-  "cookingtime": 100,
-  "ingredient": {
-    "item": "coreascension:titanium_ore"
-  },
-  "result": "coreascension:titanium_ingot"
-}

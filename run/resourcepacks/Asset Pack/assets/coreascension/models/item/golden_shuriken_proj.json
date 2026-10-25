@@ -1,6 +1,0 @@
-{
-  "parent": "coreascension:custom/projectile",
-  "textures": {
-    "layer0": "coreascension:item/gold_shuriken"
-  }
-}

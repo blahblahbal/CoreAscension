@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_bottom_top",
-  "textures": {
-    "bottom": "coreascension:block/mud_bricks",
-    "top": "coreascension:block/mud_bricks",
-    "side": "coreascension:block/mud_bricks"
-  }
-}

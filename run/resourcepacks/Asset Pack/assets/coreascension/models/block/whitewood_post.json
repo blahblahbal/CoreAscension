@@ -1,9 +1,0 @@
-{
-  "parent": "coreascension:custom/jungle_post",
-  "textures": {
-    "all": "coreascension:block/whitewood_log",
-    "particle": "coreascension:block/whitewood_log",
-    "0": "coreascension:block/whitewood_log",
-    "1": "coreascension:block/whitewood_post"
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "parent": "block/fence_inventory",
-  "textures": {
-    "texture": "coreascension:block/tropicsplanks",
-    "particle": "coreascension:block/tropicsplanks"
-  }
-}

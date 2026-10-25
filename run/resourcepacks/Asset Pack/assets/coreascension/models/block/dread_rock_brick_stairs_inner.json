@@ -1,8 +1,0 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "bottom": "coreascension:block/dreadrockbricks",
-    "top": "coreascension:block/dreadrockbricks",
-    "side": "coreascension:block/dreadrockbricks"
-  }
-}

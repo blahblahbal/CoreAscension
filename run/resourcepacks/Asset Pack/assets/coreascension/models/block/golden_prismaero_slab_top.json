@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "bottom": "coreascension:block/golden_prismaero",
-    "top": "coreascension:block/golden_prismaero",
-    "side": "coreascension:block/golden_prismaero"
-  }
-}

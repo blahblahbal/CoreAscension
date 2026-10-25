@@ -1,8 +1,0 @@
-{
-  "parent": "coreascension:custom/nether_star_block",
-  "textures": {
-    "all": "coreascension:block/nether_star_block",
-    "particle": "coreascension:block/nether_star_block",
-    "0": "coreascension:block/nether_star_block"
-  }
-}

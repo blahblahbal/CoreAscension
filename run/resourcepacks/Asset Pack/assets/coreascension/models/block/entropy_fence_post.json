@@ -1,7 +1,0 @@
-{
-  "parent": "block/fence_post",
-  "textures": {
-    "texture": "coreascension:block/entropy_planks",
-    "particle": "coreascension:block/entropy_planks"
-  }
-}

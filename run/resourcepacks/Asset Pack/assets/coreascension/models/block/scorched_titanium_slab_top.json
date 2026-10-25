@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "bottom": "coreascension:block/scorched_titanium_block",
-    "top": "coreascension:block/scorched_titanium_block",
-    "side": "coreascension:block/scorched_titanium_slab"
-  }
-}

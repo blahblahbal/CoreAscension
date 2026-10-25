@@ -1,7 +1,0 @@
-{
-  "parent": "coreascension:custom/coconut",
-  "textures": {
-    "all": "coreascension:block/coconut",
-    "particle": "coreascension:block/coconut"
-  }
-}

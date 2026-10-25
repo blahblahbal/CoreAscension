@@ -1,8 +1,0 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "bottom": "coreascension:block/petrified_planks",
-    "top": "coreascension:block/petrified_planks",
-    "side": "coreascension:block/petrified_planks"
-  }
-}

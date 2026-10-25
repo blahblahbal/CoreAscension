@@ -1,8 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "coreascension:block/cedarplanks",
-    "top": "coreascension:block/cedarplanks",
-    "side": "coreascension:block/cedarplanks"
-  }
-}

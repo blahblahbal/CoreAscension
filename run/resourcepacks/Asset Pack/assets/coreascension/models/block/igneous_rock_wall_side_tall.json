@@ -1,7 +1,0 @@
-{
-  "parent": "block/template_wall_side_tall",
-  "textures": {
-    "wall": "coreascension:block/igneous_rock",
-    "particle": "coreascension:block/igneous_rock"
-  }
-}

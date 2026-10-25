@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "coreascension:moonstone"
-  },
-  "result": "coreascension:polished_moonstone_stairs"
-}

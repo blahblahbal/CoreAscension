@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "minecraft:blue_dye",
-    "minecraft:light_blue_dye",
-    "minecraft:cyan_dye",
-    "coreascension:bright_cyan_dye"
-  ]
-}

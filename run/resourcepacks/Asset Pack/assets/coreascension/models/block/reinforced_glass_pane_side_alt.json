@@ -1,7 +1,0 @@
-{
-  "parent": "block/template_glass_pane_side_alt",
-  "textures": {
-    "edge": "coreascension:block/reinforced_glass_top",
-    "pane": "coreascension:block/reinforcedglass"
-  }
-}

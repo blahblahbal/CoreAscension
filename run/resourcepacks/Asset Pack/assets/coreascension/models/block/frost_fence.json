@@ -1,7 +1,0 @@
-{
-  "parent": "block/fence_side",
-  "textures": {
-    "texture": "coreascension:block/frost_planks",
-    "particle": "coreascension:block/frost_planks"
-  }
-}

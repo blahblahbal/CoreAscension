@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "experience": 2,
-  "cookingtime": 200,
-  "ingredient": {
-    "item": "coreascension:raw_titanium"
-  },
-  "result": "coreascension:titanium_ingot"
-}

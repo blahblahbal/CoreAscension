@@ -1,8 +1,0 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "bottom": "coreascension:block/lumiteblock",
-    "top": "coreascension:block/lumiteblock",
-    "side": "coreascension:block/lumiteblock"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "bottom": "coreascension:block/polishedigneousrock",
-    "top": "coreascension:block/polishedigneousrock",
-    "side": "coreascension:block/polishedigneousrock"
-  }
-}

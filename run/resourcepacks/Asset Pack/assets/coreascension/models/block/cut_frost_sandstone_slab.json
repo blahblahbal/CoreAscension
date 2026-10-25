@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "coreascension:block/frostsandstone_top",
-    "top": "coreascension:block/frostsandstone_top",
-    "side": "coreascension:block/cut_frost_sandstone"
-  }
-}

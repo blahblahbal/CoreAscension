@@ -1,7 +1,0 @@
-{
-  "parent": "block/template_wall_side",
-  "textures": {
-    "wall": "coreascension:block/polishedmagnetite",
-    "particle": "coreascension:block/polishedmagnetite"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "coreascension:block/polishedmagnetite",
-    "top": "coreascension:block/polishedmagnetite",
-    "side": "coreascension:block/polishedmagnetite"
-  }
-}

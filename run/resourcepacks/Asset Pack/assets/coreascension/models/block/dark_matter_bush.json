@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "coreascension:block/dark_matter_bush_small",
-    "particle": "coreascension:block/dark_matter_bush_small"
-  }
-}

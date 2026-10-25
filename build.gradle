@@ -1,112 +1,107 @@
 plugins {
-    id 'fabric-loom' version '1.17-SNAPSHOT'
+    id 'java-library'
     id 'maven-publish'
+    id 'net.neoforged.gradle.userdev' version '7.1.39'
 }
 
-version = project.mod_version
-group = project.maven_group
-base {
-    archivesName = project.archives_base_name
+tasks.named('wrapper', Wrapper).configure {
+    distributionType = Wrapper.DistributionType.BIN
+}
+
+version = mod_version
+group = mod_group_id
+
+sourceSets.main.resources {
+    srcDir('src/generated/resources')
+
+    exclude("src/generated/**/.cache")
 }
 
 repositories {
-    maven {
-        name = 'TerraformersMC'
-        url = 'https://maven.terraformersmc.com/'
+}
+
+base {
+    archivesName = mod_id
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
+
+runs {
+    configureEach {
+        systemProperty 'forge.logging.markers', 'REGISTRIES'
+
+        systemProperty 'forge.logging.console.level', 'debug'
+
+        workingDirectory project.layout.projectDirectory.dir('run').dir(name)
+
+        modSource project.sourceSets.main
     }
-    maven {
-        url = 'https://maven.minecraftforge.net/'
+
+    client {
+        systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
     }
-    maven {
-        url = "https://maven.kyrptonaught.dev"
+
+    server {
+        systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        argument '--nogui'
     }
-    maven {
-        // location of the maven that hosts JEI files since January 2023
-        name = "Jared's maven"
-        url = "https://maven.blamejared.com/"
+
+    gameTestServer {
+        systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
     }
-    maven {
-        // location of a maven mirror for JEI files, as a fallback
-        name = "ModMaven"
-        url = "https://modmaven.dev"
-    }
-    maven {
-        url "https://maven.sinytra.org"
+
+    clientData {
+        arguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
     }
 }
 
-fabricApi {
-    configureDataGeneration()
+configurations {
+    runtimeClasspath.extendsFrom localRuntime
 }
 
 dependencies {
-    // To change the versions see the gradle.properties file
-    minecraft "com.mojang:minecraft:${project.minecraft_version}"
-    mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
-    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    implementation "net.neoforged:neoforge:${neo_version}"
 
-    // Fabric API. This is technically optional, but you probably want it anyway.
-    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-
-    modImplementation "com.terraformersmc:biolith:${biolith_version}"
-    include "com.terraformersmc:biolith:${biolith_version}"
-
-    implementation "org.sinytra.forgified-fabric-api:forgified-fabric-api:0.116.15+2.3.5+1.21.1"
-
-    modImplementation "net.kyrptonaught:customportalapi:${portal_version}"
-    include "net.kyrptonaught:customportalapi:${portal_version}"
-
-    modImplementation "com.terraformersmc.terraform-api:terraform-wood-api-v1:${project.terraform_wood_api_version}"
-    include "com.terraformersmc.terraform-api:terraform-wood-api-v1:${project.terraform_wood_api_version}"
-
-    // compile against the JEI API but do not include it at runtime
-    modCompileOnlyApi("mezz.jei:jei-1.21.1-fabric-api:${jei_version}")
-    // at runtime, use the full JEI jar for Fabric
-    modRuntimeOnly("mezz.jei:jei-1.21.1-fabric:${jei_version}")
 }
 
-processResources {
-    inputs.property "version", project.version
 
-    filesMatching("fabric.mod.json") {
-        expand "version": project.version
+tasks.withType(ProcessResources).configureEach {
+    var replaceProperties = [
+            minecraft_version      : minecraft_version,
+            minecraft_version_range: minecraft_version_range,
+            neo_version            : neo_version,
+            mod_id                 : mod_id,
+            mod_name               : mod_name,
+            mod_license            : mod_license,
+            mod_version            : mod_version,
+    ]
+    inputs.properties replaceProperties
+
+    filesMatching(['META-INF/neoforge.mods.toml']) {
+        expand replaceProperties
+    }
+}
+
+publishing {
+    publications {
+        register('mavenJava', MavenPublication) {
+            from components.java
+        }
+    }
+    repositories {
+        maven {
+            url "file://${project.projectDir}/repo"
+        }
     }
 }
 
 tasks.withType(JavaCompile).configureEach {
-    it.options.release = 21
+    options.encoding = 'UTF-8' 
 }
 
-java {
-    // Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
-    // if it is present.
-    // If you remove this line, sources will not be generated.
-    withSourcesJar()
-
-    sourceCompatibility = JavaVersion.VERSION_21
-    targetCompatibility = JavaVersion.VERSION_21
-}
-
-jar {
-    from("LICENSE") {
-        rename { "${it}_${project.base.archivesName.get()}"}
-    }
-}
-
-// configure the maven publication
-publishing {
-    publications {
-        create("mavenJava", MavenPublication) {
-            artifactId = project.archives_base_name
-            from components.java
-        }
-    }
-
-    // See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.
-    repositories {
-        // Add repositories to publish to here.
-        // Notice: This block does NOT have the same function as the block in the top level.
-        // The repositories here will be used for publishing your artifact, not for
-        // retrieving dependencies.
+idea {
+    module {
+        downloadSources = true
+        downloadJavadoc = true
     }
 }

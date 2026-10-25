@@ -1,6 +1,0 @@
-{
-  "parent": "coreascension:custom/heldstaff",
-  "textures": {
-    "layer0": "coreascension:item/amethyst_staff"
-  }
-}

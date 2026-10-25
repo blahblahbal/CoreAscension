@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "coreascension:smooth_frost_sandstone"
-  },
-  "result": "coreascension:cut_frost_sandstone_slab"
-}

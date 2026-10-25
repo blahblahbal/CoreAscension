@@ -1,9 +1,0 @@
-{
-  "parent": "coreascension:custom/ethereal_post",
-  "textures": {
-    "all": "coreascension:block/ethereal_log",
-    "particle": "coreascension:block/ethereal_log",
-    "0": "coreascension:block/ethereal_log",
-    "1": "coreascension:block/ethereal_post"
-  }
-}

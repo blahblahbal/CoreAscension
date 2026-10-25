@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "coreascension:prismaero"
-  },
-  "result": "coreascension:prismaero_wall"
-}

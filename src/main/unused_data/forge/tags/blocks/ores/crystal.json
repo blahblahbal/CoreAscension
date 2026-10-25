@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "coreascension:neon_crystal_ore",
-    "coreascension:xenon_crystal_ore",
-    "coreascension:krypton_crystal_ore",
-    "coreascension:argon_crystal_ore"
-  ]
-}

@@ -1,7 +1,0 @@
-{
-  "parent": "block/template_wall_post",
-  "textures": {
-    "wall": "coreascension:block/taterstone",
-    "particle": "coreascension:block/taterstone"
-  }
-}

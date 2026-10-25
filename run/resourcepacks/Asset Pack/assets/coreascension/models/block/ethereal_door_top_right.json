@@ -1,7 +1,0 @@
-{
-  "parent": "block/door_top_right",
-  "textures": {
-    "bottom": "coreascension:block/ethereal_door_lower",
-    "top": "coreascension:block/ethereal_door_upper"
-  }
-}

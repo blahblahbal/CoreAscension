@@ -1,7 +1,0 @@
-{
-  "parent": "block/wall_inventory",
-  "textures": {
-    "wall": "block/emerald_block",
-    "particle": "block/emerald_block"
-  }
-}

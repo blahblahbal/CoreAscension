@@ -1,8 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "coreascension:block/amethyst_tiles_top",
-    "top": "coreascension:block/amethyst_tiles_top",
-    "side": "coreascension:block/amethyst_tiles_side"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "coreascension:block/frost_planks",
-    "top": "coreascension:block/frost_planks",
-    "side": "coreascension:block/frost_planks"
-  }
-}

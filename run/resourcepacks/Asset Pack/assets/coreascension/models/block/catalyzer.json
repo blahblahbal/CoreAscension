@@ -1,8 +1,0 @@
-{
-  "parent": "coreascension:custom/catalyzer",
-  "textures": {
-    "all": "coreascension:block/catalyzer",
-    "particle": "coreascension:block/catalyzer",
-    "0": "coreascension:block/catalyzer"
-  }
-}

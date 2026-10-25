@@ -1,7 +1,0 @@
-{
-  "parent": "block/template_wall_side_tall",
-  "textures": {
-    "wall": "block/emerald_block",
-    "particle": "block/emerald_block"
-  }
-}

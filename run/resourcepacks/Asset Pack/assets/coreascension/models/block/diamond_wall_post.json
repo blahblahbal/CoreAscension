@@ -1,7 +1,0 @@
-{
-  "parent": "block/template_wall_post",
-  "textures": {
-    "wall": "block/diamond_block",
-    "particle": "block/diamond_block"
-  }
-}

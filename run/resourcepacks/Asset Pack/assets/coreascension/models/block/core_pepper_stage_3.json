@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "coreascension:block/pepper_stage_3",
-    "particle": "coreascension:block/pepper_stage_3"
-  }
-}

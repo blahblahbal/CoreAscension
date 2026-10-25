@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_bottom_top",
-  "textures": {
-    "bottom": "coreascension:block/bonesandstone_bottom",
-    "top": "coreascension:block/bonesandstone_top",
-    "side": "coreascension:block/bonesandstone"
-  }
-}

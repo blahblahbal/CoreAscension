@@ -1,9 +1,0 @@
-{
-  "parent": "coreascension:custom/spruce_post",
-  "textures": {
-    "all": "coreascension:block/spruce_log",
-    "particle": "coreascension:block/spruce_log",
-    "0": "coreascension:block/spruce_log",
-    "1": "coreascension:block/spruce_post"
-  }
-}

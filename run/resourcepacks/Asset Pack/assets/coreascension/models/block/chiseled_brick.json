@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "coreascension:block/chiseled_brick",
-    "particle": "coreascension:block/chiseled_brick"
-  }
-}

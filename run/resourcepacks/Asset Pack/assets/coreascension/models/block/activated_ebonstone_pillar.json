@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_column",
-  "textures": {
-    "end": "coreascension:block/activated_ebonstone_pillar_top",
-    "side": "coreascension:block/activated_ebonstone_pillar"
-  }
-}

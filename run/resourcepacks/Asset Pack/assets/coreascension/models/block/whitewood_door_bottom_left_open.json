@@ -1,7 +1,0 @@
-{
-  "parent": "block/door_bottom_left_open",
-  "textures": {
-    "bottom": "coreascension:block/whitewood_door_lower",
-    "top": "coreascension:block/whitewood_door_upper"
-  }
-}

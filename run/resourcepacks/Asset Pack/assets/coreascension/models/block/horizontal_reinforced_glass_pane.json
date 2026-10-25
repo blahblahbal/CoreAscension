@@ -1,9 +1,0 @@
-{
-  "parent": "coreascension:custom/horizontal_glass_pane",
-  "textures": {
-    "all": "coreascension:block/reinforcedglass",
-    "particle": "coreascension:block/reinforcedglass",
-    "0": "coreascension:block/reinforced_glass_horizontal_pane_side",
-    "1": "coreascension:block/reinforcedglass"
-  }
-}

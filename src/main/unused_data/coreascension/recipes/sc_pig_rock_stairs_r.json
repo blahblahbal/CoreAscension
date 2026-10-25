@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "coreascension:pigneous_rock"
-  },
-  "result": "coreascension:pigneous_rock_stairs"
-}

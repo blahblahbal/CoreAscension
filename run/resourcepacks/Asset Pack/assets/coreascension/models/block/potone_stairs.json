@@ -1,8 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "coreascension:block/potone",
-    "top": "coreascension:block/potone",
-    "side": "coreascension:block/potone"
-  }
-}

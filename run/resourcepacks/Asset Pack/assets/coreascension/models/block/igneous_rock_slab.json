@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "coreascension:block/igneous_rock",
-    "top": "coreascension:block/igneous_rock",
-    "side": "coreascension:block/igneous_rock"
-  }
-}

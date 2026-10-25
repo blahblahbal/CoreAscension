@@ -1,8 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "coreascension:block/netherite_block",
-    "top": "coreascension:block/netherite_block",
-    "side": "coreascension:block/netherite_block"
-  }
-}

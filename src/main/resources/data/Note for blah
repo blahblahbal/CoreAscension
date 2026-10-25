@@ -1,9 +1,0 @@
-You must debug data as its from 1.16.5 or older? as data json change quite a bit between versions
-Also in the release for the mod add biolith as a dependency
-Because adding biomes though jsons which replaces entire dimensions which cause incompatibles issues
-Biolith fixes that
-https://modrinth.com/mod/biolith
-https://github.com/TerraformersMC/Biolith/wiki
-
-id much rather use this then Terra-blender
-biolith is in the run/mods folders so just follow the wiki for the jsons

@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "bottom": "coreascension:block/prismaero",
-    "top": "coreascension:block/prismaero",
-    "side": "coreascension:block/prismaero"
-  }
-}

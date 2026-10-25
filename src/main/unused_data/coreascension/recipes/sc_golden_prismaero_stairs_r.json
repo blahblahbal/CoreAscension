@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "coreascension:gold_prismaero"
-  },
-  "result": "coreascension:golden_prismaero_stairs"
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "bottom": "coreascension:block/citrineblock",
-    "top": "coreascension:block/citrineblock",
-    "side": "coreascension:block/citrineblock"
-  }
-}

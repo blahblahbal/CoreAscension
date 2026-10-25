@@ -1,9 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "coreascension:item/osborgnen_fuel_1",
-    "layer1": "coreascension:item/osborgnen_fuel_2",
-    "layer2": "coreascension:item/osborgnen_fuel_3",
-    "layer3": "coreascension:item/osborgnen_fuel_4"
-  }
-}

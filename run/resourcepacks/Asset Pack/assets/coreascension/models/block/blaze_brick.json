@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "coreascension:block/blaze_brick",
-    "particle": "coreascension:block/blaze_brick"
-  }
-}

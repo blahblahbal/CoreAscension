@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "coreascension:block/amethyst_gem_leaves",
-    "particle": "coreascension:block/amethyst_gem_leaves"
-  },
-  "render_type": "cutout"
-}

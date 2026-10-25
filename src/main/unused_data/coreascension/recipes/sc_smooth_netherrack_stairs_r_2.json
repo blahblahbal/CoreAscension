@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "coreascension:smooth_netherrack"
-  },
-  "result": "coreascension:smooth_netherrack_stairs"
-}

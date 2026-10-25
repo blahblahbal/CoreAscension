@@ -1,8 +1,0 @@
-{
-  "parent": "coreascension:custom/mangrove_sapling",
-  "textures": {
-    "all": "coreascension:block/mangrove_sapling",
-    "particle": "coreascension:block/mangrove_sapling",
-    "0": "coreascension:block/sapling_mangrove"
-  }
-}

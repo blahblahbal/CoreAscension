@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "coreascension:smooth_dread_sandstone"
-  },
-  "result": "coreascension:cut_dread_sandstone_slab"
-}

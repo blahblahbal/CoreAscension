@@ -1,8 +1,0 @@
-{
-  "parent": "coreascension:custom/core_tank_head",
-  "textures": {
-    "all": "coreascension:block/head",
-    "particle": "coreascension:block/head",
-    "0": "coreascension:block/head"
-  }
-}

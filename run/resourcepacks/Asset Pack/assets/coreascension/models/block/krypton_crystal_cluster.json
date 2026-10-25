@@ -1,8 +1,0 @@
-{
-  "parent": "coreascension:custom/crystalthing",
-  "textures": {
-    "all": "coreascension:block/kryptoncrystal",
-    "particle": "coreascension:block/kryptoncrystal",
-    "crystal": "coreascension:block/kryptoncrystal"
-  }
-}

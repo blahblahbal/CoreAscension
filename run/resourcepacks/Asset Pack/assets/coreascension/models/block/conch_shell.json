@@ -1,7 +1,0 @@
-{
-  "parent": "coreascension:custom/largeseashell",
-  "textures": {
-    "all": "coreascension:block/seashell",
-    "particle": "coreascension:block/seashell"
-  }
-}

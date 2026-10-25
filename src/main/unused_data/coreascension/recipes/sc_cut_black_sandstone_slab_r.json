@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "coreascension:smooth_black_sandstone"
-  },
-  "result": "coreascension:cut_black_sandstone_slab"
-}

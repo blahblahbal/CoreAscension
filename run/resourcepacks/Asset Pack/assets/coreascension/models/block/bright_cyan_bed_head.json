@@ -1,9 +1,0 @@
-{
-  "parent": "coreascension:custom/bed_new_head",
-  "textures": {
-    "all": "coreascension:block/wool_bright_cyan",
-    "particle": "coreascension:block/wool_bright_cyan",
-    "0": "coreascension:block/bright_cyan_bed_texture"
-  },
-  "render_type": "cutout"
-}

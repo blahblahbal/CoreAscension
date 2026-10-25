@@ -1,9 +1,0 @@
-{
-  "parent": "coreascension:custom/dark_oak_post",
-  "textures": {
-    "all": "coreascension:block/dark_oak_log",
-    "particle": "coreascension:block/dark_oak_log",
-    "0": "coreascension:block/dark_oak_log",
-    "1": "coreascension:block/dark_oak_post"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/carpet",
-  "textures": {
-    "wool": "coreascension:block/wool_pale_yellow",
-    "particle": "coreascension:block/wool_pale_yellow"
-  },
-  "render_type": "solid"
-}

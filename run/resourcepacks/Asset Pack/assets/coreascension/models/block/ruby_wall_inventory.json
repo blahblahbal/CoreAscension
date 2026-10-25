@@ -1,7 +1,0 @@
-{
-  "parent": "block/wall_inventory",
-  "textures": {
-    "wall": "coreascension:block/ruby_block",
-    "particle": "coreascension:block/ruby_block"
-  }
-}

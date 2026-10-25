@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "coreascension:block/sapphire_gem_leaves",
-    "particle": "coreascension:block/sapphire_gem_leaves"
-  }
-}

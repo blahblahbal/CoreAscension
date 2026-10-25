@@ -1,8 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "coreascension:block/tropicsplanks",
-    "top": "coreascension:block/tropicsplanks",
-    "side": "coreascension:block/tropicsplanks"
-  }
-}

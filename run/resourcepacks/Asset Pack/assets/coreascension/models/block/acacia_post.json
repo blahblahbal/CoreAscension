@@ -1,7 +1,0 @@
-{
-  "parent": "coreascension:custom/post",
-  "textures": {
-    "side": "block/acacia_log",
-    "end": "coreascension:block/acacia_post"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "coreascension:cut_bonesandstone"
-  },
-  "result": "coreascension:cut_bonesandstone_stairs"
-}

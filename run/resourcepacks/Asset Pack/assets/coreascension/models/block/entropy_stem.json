@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_column",
-  "textures": {
-    "end": "coreascension:block/entropy_stem_top",
-    "side": "coreascension:block/entropy_stem"
-  }
-}

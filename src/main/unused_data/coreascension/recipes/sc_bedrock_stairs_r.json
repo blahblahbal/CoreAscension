@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "tag": "bedrock_tag"
-  },
-  "result": "coreascension:bedrock_stairs"
-}

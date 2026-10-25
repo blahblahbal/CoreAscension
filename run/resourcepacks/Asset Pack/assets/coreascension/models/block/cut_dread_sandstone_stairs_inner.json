@@ -1,8 +1,0 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "bottom": "coreascension:block/dreadsandstone_top",
-    "top": "coreascension:block/dreadsandstone_top",
-    "side": "coreascension:block/cut_dread_sandstone"
-  }
-}

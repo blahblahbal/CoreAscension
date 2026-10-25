@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "coreascension:dread_sandstone"
-  },
-  "result": "coreascension:chiseled_dread_sandstone"
-}

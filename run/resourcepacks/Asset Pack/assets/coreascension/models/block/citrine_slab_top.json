@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "bottom": "coreascension:block/citrineblock",
-    "top": "coreascension:block/citrineblock",
-    "side": "coreascension:block/citrineblock"
-  }
-}

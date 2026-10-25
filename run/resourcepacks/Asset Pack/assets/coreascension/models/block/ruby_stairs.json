@@ -1,8 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "coreascension:block/ruby_block",
-    "top": "coreascension:block/ruby_block",
-    "side": "coreascension:block/ruby_block"
-  }
-}

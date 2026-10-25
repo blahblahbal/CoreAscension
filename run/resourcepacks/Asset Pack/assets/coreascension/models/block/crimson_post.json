@@ -1,9 +1,0 @@
-{
-  "parent": "coreascension:custom/crimson_post",
-  "textures": {
-    "all": "coreascension:block/crimson_stem",
-    "particle": "coreascension:block/crimson_stem",
-    "0": "coreascension:block/crimson_stem",
-    "1": "coreascension:block/crimson_post"
-  }
-}

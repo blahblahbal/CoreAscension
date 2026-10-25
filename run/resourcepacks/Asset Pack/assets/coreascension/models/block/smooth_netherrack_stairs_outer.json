@@ -1,8 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "coreascension:block/smooth_netherrack",
-    "top": "coreascension:block/smooth_netherrack",
-    "side": "coreascension:block/smooth_netherrack"
-  }
-}

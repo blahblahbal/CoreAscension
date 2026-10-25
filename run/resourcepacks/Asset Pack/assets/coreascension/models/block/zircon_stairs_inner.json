@@ -1,8 +1,0 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "bottom": "coreascension:block/zirconblock",
-    "top": "coreascension:block/zirconblock",
-    "side": "coreascension:block/zirconblock"
-  }
-}

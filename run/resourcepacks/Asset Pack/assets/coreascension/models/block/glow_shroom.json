@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "coreascension:block/glow_shroom",
-    "particle": "coreascension:block/glow_shroom"
-  }
-}

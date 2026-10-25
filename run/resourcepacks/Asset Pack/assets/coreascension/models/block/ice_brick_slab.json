@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "coreascension:block/ice_bricks",
-    "top": "coreascension:block/ice_bricks",
-    "side": "coreascension:block/ice_bricks"
-  }
-}

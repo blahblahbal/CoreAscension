@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "bottom": "coreascension:block/sulphurblock",
-    "top": "coreascension:block/sulphurblock",
-    "side": "coreascension:block/sulphurblock"
-  }
-}

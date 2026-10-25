@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "coreascension:block/amethyst_tiles_top",
-    "side": "coreascension:block/amethyst_tiles_side"
-  }
-}

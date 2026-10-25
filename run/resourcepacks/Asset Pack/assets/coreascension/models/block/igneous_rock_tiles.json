@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "coreascension:block/igneous_rock_tiles",
-    "particle": "coreascension:block/igneous_rock_tiles"
-  }
-}

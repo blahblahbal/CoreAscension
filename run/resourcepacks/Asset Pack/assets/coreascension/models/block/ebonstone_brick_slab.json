@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "coreascension:block/ebonstone_bricks",
-    "top": "coreascension:block/ebonstone_bricks",
-    "side": "coreascension:block/ebonstone_bricks"
-  }
-}

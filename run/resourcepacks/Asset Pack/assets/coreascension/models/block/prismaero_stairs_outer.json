@@ -1,8 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "coreascension:block/prismaero",
-    "top": "coreascension:block/prismaero",
-    "side": "coreascension:block/prismaero"
-  }
-}

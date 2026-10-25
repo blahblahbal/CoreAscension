@@ -1,8 +1,0 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "bottom": "coreascension:block/taterstone",
-    "top": "coreascension:block/taterstone",
-    "side": "coreascension:block/taterstone"
-  }
-}
